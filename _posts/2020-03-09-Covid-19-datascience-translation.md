@@ -2,7 +2,7 @@
 toc: false
 layout: post
 description: Translation of a coronavirus data science post to Spanish
-categories: [public health, data science]
+categories: [public-health]
 ---
 Esta es una traducción al español de 
 [Covid-19, your community, and you — a data science perspective](https://www.fast.ai/2020/03/09/coronavirus/),
@@ -17,7 +17,7 @@ Cualquiera puede traducir este artículo para ayudar a sus comunidades locales a
 Vuelva a vincular aquí con el crédito apropiado. Háganos saber en [Twitter](https://twitter.com/jeremyphoward) 
 para que podamos agregar su traducción a esta lista.
 * [francés](https://medium.com/@xrb/covid-19-votre-communaut%C3%A9-et-vous-3e5f127910bc)
-* [español](https://datus.encryptedcommerce.net/2020/03/09/Covid-19-datascience-translation.html)
+* [español](https://datus.encryptedcommerce.net/public-health/2020/03/09/Covid-19-datascience-translation.html)
 
 ## Contenido
 * [Necesitamos un sistema médico que funcione](#necesitamos-un-sistema-médico-que-funcione)
