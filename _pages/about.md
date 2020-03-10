@@ -4,10 +4,8 @@ title: About Me
 permalink: /about/
 ---
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+Hello!  I'm [Leonardo Gonzalez] (https://www.linkedin.com/in/leonardo-gonzalez-technology/).  I have a couple decades of experience with software engineering, technical leadership and architecture.
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+My specialties are: data science, machine learning, software architecture, data architecture, software engineering, and engineering management.
 
-
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+My other passions include martial arts, medical research, and world music.
