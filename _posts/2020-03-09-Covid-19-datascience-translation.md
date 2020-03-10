@@ -145,8 +145,7 @@ impactos reales que estamos viendo en el terreno en las áreas infectadas, donde
 (por ejemplo, Italia está utilizando 462 carpas para “pre-triaje”, y todavía tiene que [mover a los pacientes de 
 la UCI de áreas infectadas](https://www.repubblica.it/cronaca/2020/03/08/news/coronavirus_situazione_italia-250665818/?ref=RHPPTP-BH-I250661466-C12-P5-S1.12-T1)).
 
-En cambio, la respuesta razonable y razonable es seguir los pasos recomendados por los expertos para evitar la propagación 
-de infecciones:
+En cambio, la respuesta razonable es seguir los pasos recomendados por los expertos para evitar la propagación de infecciones:
 
 * Evite grupos grandes y multitudes.
 * Cancelar eventos
