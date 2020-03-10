@@ -305,18 +305,10 @@ Gracias a Sylvain Gugger y Alexis Gallagher por sus comentarios._
 
 ### Notas al pie
 
-[^1]: Los _epidemiólogos_ son personas que estudian la propagación de la enfermedad. Resulta que estimar cosas como la 
-mortalidad y la R0 en realidad son bastante desafiantes, por lo que hay un campo completo que se especializa en hacerlo bien. 
-Desconfie de las personas que usan índices y estadísticas simples para decirle cómo se comporta covid-19. En cambio, mire los 
-modelos realizado por epidemiólogos.
+[^1]: Los _epidemiólogos_ son personas que estudian la propagación de la enfermedad. Resulta que estimar cosas como la mortalidad y la R0 en realidad son bastante desafiantes, por lo que hay un campo completo que se especializa en hacerlo bien.  Desconfie de las personas que usan índices y estadísticas simples para decirle cómo se comporta covid-19. En cambio, mire los modelos realizado por epidemiólogos.
 
-[^2]: Bueno, técnicamente no es cierto. “R0” estrictamente hablando se refiere a la tasa de infección en ausencia de respuesta.
-Pero dado que eso no es lo que realmente nos importa, nos dejaremos ser un poco descuidados con nuestras definiciones aquí.
+[^2]: Bueno, técnicamente no es cierto. “R0” estrictamente hablando se refiere a la tasa de infección en ausencia de respuesta.  Pero dado que eso no es lo que realmente nos importa, nos dejaremos ser un poco descuidados con nuestras definiciones aquí.
 
-[^3]: Desde esa decisión, hemos trabajado duro para encontrar una manera de ejecutar un curso virtual que esperamos sea 
-incluso mejor que la versión en persona. Hemos podido abrirlo a cualquier persona en el mundo y ejecutaremos grupos de 
-estudio y proyectos virtuales todos los días.
+[^3]: Desde esa decisión, hemos trabajado duro para encontrar una manera de ejecutar un curso virtual que esperamos sea incluso mejor que la versión en persona. Hemos podido abrirlo a cualquier persona en el mundo y ejecutaremos grupos de estudio y proyectos virtuales todos los días.
 
-[^4]: También hemos realizado muchos otros cambios menores en nuestro estilo de vida, como hacer ejercicio en casa en lugar 
-de ir al gimnasio, trasladar todas nuestras reuniones a una videoconferencia y omitir eventos nocturnos que habíamos estado 
-esperando.
+[^4]: También hemos realizado muchos otros cambios menores en nuestro estilo de vida, como hacer ejercicio en casa en lugar de ir al gimnasio, trasladar todas nuestras reuniones a una videoconferencia y omitir eventos nocturnos que habíamos estado esperando.
