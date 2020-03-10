@@ -1,7 +1,7 @@
 ---
-toc: true
+toc: false
 layout: post
-description: A minimal example of using markdown with fastpages.
+description: Translation of a coronavirus data science post to Spanish
 categories: [public health, data science]
 ---
 Esta es una traducción al español de 
