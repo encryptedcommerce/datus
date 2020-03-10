@@ -1,14 +1,168 @@
-<p>Esta es una traducción al español de 
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Covid 19 Datascience Translation | Datus</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Covid 19 Datascience Translation" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A minimal example of using markdown with fastpages." />
+<meta property="og:description" content="A minimal example of using markdown with fastpages." />
+<link rel="canonical" href="https://datus.encryptedcommerce.net/public%20health/data%20science/2020/03/09/Covid-19-datascience-translation.html" />
+<meta property="og:url" content="https://datus.encryptedcommerce.net/public%20health/data%20science/2020/03/09/Covid-19-datascience-translation.html" />
+<meta property="og:site_name" content="Datus" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-03-09T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"A minimal example of using markdown with fastpages.","headline":"Covid 19 Datascience Translation","@type":"BlogPosting","dateModified":"2020-03-09T00:00:00-05:00","datePublished":"2020-03-09T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://datus.encryptedcommerce.net/public%20health/data%20science/2020/03/09/Covid-19-datascience-translation.html"},"url":"https://datus.encryptedcommerce.net/public%20health/data%20science/2020/03/09/Covid-19-datascience-translation.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://datus.encryptedcommerce.net/feed.xml" title="Datus" /><script async src="https://www.googletagmanager.com/gtag/js?id=UA-149889531-2"></script>
+<script>
+  window['ga-disable-UA-149889531-2'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-149889531-2');
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Covid 19 Datascience Translation | Datus</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Covid 19 Datascience Translation" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A minimal example of using markdown with fastpages." />
+<meta property="og:description" content="A minimal example of using markdown with fastpages." />
+<link rel="canonical" href="https://datus.encryptedcommerce.net/public%20health/data%20science/2020/03/09/Covid-19-datascience-translation.html" />
+<meta property="og:url" content="https://datus.encryptedcommerce.net/public%20health/data%20science/2020/03/09/Covid-19-datascience-translation.html" />
+<meta property="og:site_name" content="Datus" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-03-09T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"A minimal example of using markdown with fastpages.","headline":"Covid 19 Datascience Translation","@type":"BlogPosting","dateModified":"2020-03-09T00:00:00-05:00","datePublished":"2020-03-09T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://datus.encryptedcommerce.net/public%20health/data%20science/2020/03/09/Covid-19-datascience-translation.html"},"url":"https://datus.encryptedcommerce.net/public%20health/data%20science/2020/03/09/Covid-19-datascience-translation.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://datus.encryptedcommerce.net/feed.xml" title="Datus" /><script async src="https://www.googletagmanager.com/gtag/js?id=UA-149889531-2"></script>
+<script>
+  window['ga-disable-UA-149889531-2'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-149889531-2');
+</script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    // remove paragraph tags in rendered toc (happens from notebooks)
+    var toctags = document.querySelectorAll(".toc-entry")
+    toctags.forEach(e => (e.firstElementChild.innerText = e.firstElementChild.innerText.replace('¶', '')))
+    });
+</script>
+</head><body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Datus</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About Me</a><a class="page-link" href="/search/">Search</a><a class="page-link" href="/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Covid 19 Datascience Translation</h1><p class="page-description">A minimal example of using markdown with fastpages.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-03-09T00:00:00-05:00" itemprop="datePublished">
+        Mar 9, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      25 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="//categories/#public health">public health</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="//categories/#data science">data science</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#covid-19-su-comunidad-y-usted-una-perspectiva-de-ciencia-de-datos">Covid-19, su comunidad y usted: una perspectiva de ciencia de datos</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#traducciones">Traducciones</a></li>
+<li class="toc-entry toc-h2"><a href="#contenido">Contenido</a></li>
+<li class="toc-entry toc-h2"><a href="#necesitamos-un-sistema-médico-que-funcione">Necesitamos un sistema médico que funcione</a></li>
+<li class="toc-entry toc-h2"><a href="#esto-no-es-como-la-gripe">Esto no es como la gripe</a></li>
+<li class="toc-entry toc-h2"><a href="#no-entre-en-pánico-mantenga-la-calma-no-ayuda">“No entre en pánico. Mantenga la calma.” no ayuda</a></li>
+<li class="toc-entry toc-h2"><a href="#no-se-trata-solo-de-usted">No se trata solo de usted</a></li>
+<li class="toc-entry toc-h2"><a href="#necesitamos-aplanar-la-curva">Necesitamos aplanar la curva</a></li>
+<li class="toc-entry toc-h2"><a href="#la-reacción-de-una-comunidad-marca-la-diferencia">La reacción de una comunidad marca la diferencia</a></li>
+<li class="toc-entry toc-h2"><a href="#no-tenemos-buena-información-en-los-estados-unidos">No tenemos buena información en los Estados Unidos</a></li>
+<li class="toc-entry toc-h2"><a href="#en-conclusión">En conclusión</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#notas-al-pie">Notas al pie</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul><p>Esta es una traducción al español de 
 <a href="https://www.fast.ai/2020/03/09/coronavirus/">Covid-19, your community, and you — a data science perspective</a>,
 escrito por <a href="https://twitter.com/jeremyphoward">Jeremy Howard</a> y <a href="https://twitter.com/math_rachel">Rachel Thomas</a>, y traducido por <a href="https://twitter.com/archimagos">Leonardo González</a>.</p>
 
-<h1 id="covid-19-su-comunidad-y-usted-una-perspectiva-de-ciencia-de-datos">Covid-19, su comunidad y usted: una perspectiva de ciencia de datos</h1>
+<h1 id="covid-19-su-comunidad-y-usted-una-perspectiva-de-ciencia-de-datos">
+<a class="anchor" href="#covid-19-su-comunidad-y-usted-una-perspectiva-de-ciencia-de-datos" aria-hidden="true"><span class="octicon octicon-link"></span></a>Covid-19, su comunidad y usted: una perspectiva de ciencia de datos</h1>
 
 <blockquote>
   <p>Somos científicos de datos, es decir, nuestro trabajo es comprender cómo analizar e interpretar los datos. Cuando analizamos los datos en torno a covid-19, estamos muy preocupados. Las partes más vulnerables de la sociedad, los ancianos y los pobres, están en mayor riesgo, pero controlar la propagación y el impacto de la enfermedad requiere que todos cambiemos nuestro comportamiento. Lávese las manos minuciosa y regularmente, evite grupos y multitudes, cancele eventos y toque la cara. En esta publicación, explicamos porqué estamos preocupados, y porqué usted también debería estarlo. Para obtener un excelente resumen de la información clave que necesita saber, lea <a href="https://docs.google.com/document/u/1/d/1vumYWoiV7NlVoc27rMQvmVkVu5cOAbnaW_RKkq2RMaQ/mobilebasic?fbclid=IwAR0If1zzDDldgAy3DZmFhaxAmP046-dwAE_LCj3l9su2XLYpZe2By8mCj1A">Coronavirus en resumen</a> de Ethan Alley (presidente de una organización sin ánimo de lucro que desarrolla tecnologías para reducir los riesgos de pandemias).</p>
 </blockquote>
 
-<h2 id="traducciones">Traducciones</h2>
+<h2 id="traducciones">
+<a class="anchor" href="#traducciones" aria-hidden="true"><span class="octicon octicon-link"></span></a>Traducciones</h2>
 <p>Cualquiera puede traducir este artículo para ayudar a sus comunidades locales a comprender estos problemas. 
 Vuelva a vincular aquí con el crédito apropiado. Háganos saber en <a href="https://twitter.com/jeremyphoward">Twitter</a> 
 para que podamos agregar su traducción a esta lista.</p>
@@ -17,19 +171,21 @@ para que podamos agregar su traducción a esta lista.</p>
   <li><a href="https://datus.encryptedcommerce.net/2020/03/09/Covid-19-datascience-translation.html">español</a></li>
 </ul>
 
-<h2 id="contenido">Contenido</h2>
+<h2 id="contenido">
+<a class="anchor" href="#contenido" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contenido</h2>
 <ul>
-  <li><a href="#necesitamos-un-sistema-médico-que-funcione">Necesitamos un sistema médico que funcione</a></li>
+  <li><a href="#necesitamos-un-sistema-m%C3%A9dico-que-funcione">Necesitamos un sistema médico que funcione</a></li>
   <li><a href="#esto-no-es-como-la-gripe">Esto no es como la gripe</a></li>
-  <li><a href="#no-entre-en-pánico-mantenga-la-calma-no-ayuda">“No entre en pánico. Mantenga la calma.” no ayuda</a></li>
+  <li><a href="#no-entre-en-p%C3%A1nico-mantenga-la-calma-no-ayuda">“No entre en pánico. Mantenga la calma.” no ayuda</a></li>
   <li><a href="#no-se-trata-solo-de-usted">No se trata solo de usted</a></li>
   <li><a href="#necesitamos-aplanar-la-curva">Necesitamos aplanar la curva</a></li>
-  <li><a href="#la-reacción-de-una-comunidad-marca-la-diferencia">La reacción de una comunidad marca la diferencia</a></li>
-  <li><a href="#no-tenemos-buena-información-en-los-estados-unidos">No tenemos buena información en los Estados Unidos</a></li>
-  <li><a href="#en-conclusión">En conclusión</a></li>
+  <li><a href="#la-reacci%C3%B3n-de-una-comunidad-marca-la-diferencia">La reacción de una comunidad marca la diferencia</a></li>
+  <li><a href="#no-tenemos-buena-informaci%C3%B3n-en-los-estados-unidos">No tenemos buena información en los Estados Unidos</a></li>
+  <li><a href="#en-conclusi%C3%B3n">En conclusión</a></li>
 </ul>
 
-<h2 id="necesitamos-un-sistema-médico-que-funcione">Necesitamos un sistema médico que funcione</h2>
+<h2 id="necesitamos-un-sistema-médico-que-funcione">
+<a class="anchor" href="#necesitamos-un-sistema-m%C3%A9dico-que-funcione" aria-hidden="true"><span class="octicon octicon-link"></span></a>Necesitamos un sistema médico que funcione</h2>
 <p>Hace poco más de 2 años, uno de nosotros (Rachel) sufrió una infección cerebral que mata a aproximadamente 1/4 de las 
 personas que la padecen y deja a 1/3 con un deterioro cognitivo permanente. Muchos otros terminan con daños permanentes en 
 la vista y la audición. Rachel estaba delirando cuando se arrastró por el estacionamiento del hospital. Ella tuvo la suerte 
@@ -46,7 +202,7 @@ covid-19, sino también para cualquier otra cosa, como el cuidado para salvar vi
 Italia, donde hace solo una semana los funcionarios decían que todo estaba bien, ahora dieciséis millones de personas han 
 sido bloqueadas ( actualización: 6 horas después de publicar esto, Italia puso a todo el país en bloqueo ), y carpas como 
 esta se están configurando para ayudar a manejar la afluencia de pacientes:
-<img src="https://www.fast.ai/images/coronavirus/image1.jpeg" alt="Una carpa médica utilizada en Italia" title="Una carpa médica utilizada en Italia" /></p>
+<img src="https://www.fast.ai/images/coronavirus/image1.jpeg" alt="Una carpa médica utilizada en Italia" title="Una carpa médica utilizada en Italia"></p>
 
 <p><em>Una carpa médica utilizada en Italia</em></p>
 
@@ -55,7 +211,8 @@ esta se están configurando para ayudar a manejar la afluencia de pacientes:
 “Ahora nos vemos obligados a establecer tratamientos de cuidados intensivos en corredores, quirófanos, salas de recuperación… 
 Uno de los mejores sistemas de salud del mundo, en Lombardía está a un paso del colapso”.</p>
 
-<h2 id="esto-no-es-como-la-gripe">Esto no es como la gripe</h2>
+<h2 id="esto-no-es-como-la-gripe">
+<a class="anchor" href="#esto-no-es-como-la-gripe" aria-hidden="true"><span class="octicon octicon-link"></span></a>Esto no es como la gripe</h2>
 
 <p>La gripe tiene una tasa de mortalidad de alrededor del 0,1% de las infecciones. Marc Lipsitch, director del 
 <a href="https://ccdd.hsph.harvard.edu/">Centro de Dinámica de Enfermedades Transmisibles</a> de Harvard, estima que <a href="https://www.washingtonpost.com/opinions/2020/03/06/why-its-so-hard-pin-down-risk-dying-coronavirus/">para covid-19 es 
@@ -70,7 +227,7 @@ una enfermedad muy parecida a la gripe, porque es muy incómodo aceptar la reali
 
 <p>Tratar de comprender intuitivamente un crecimiento exponencial en el número de personas infectadas no es algo que nuestros 
 cerebros estén diseñados para manejar. Entonces tenemos que analizar esto como científicos, no utilizando nuestra intuición.
-<img src="https://www.fast.ai/images/coronavirus/image2.png" alt="¿En qué estará esto en 2 semanas? ¿2 meses?" /></p>
+<img src="https://www.fast.ai/images/coronavirus/image2.png" alt="¿En qué estará esto en 2 semanas? ¿2 meses?"></p>
 
 <p><em>¿En qué estará esto en 2 semanas? ¿2 meses?</em></p>
 
@@ -113,7 +270,8 @@ señala que la enfermedad se ha propagado hasta ahora en climas templados (desaf
 temperatura en San Francisco, donde vivimos, está en ese rango; también cubre los principales centros de población de
 Europa, incluido Londres.)</p>
 
-<h2 id="no-entre-en-pánico-mantenga-la-calma-no-ayuda">“No entre en pánico. Mantenga la calma.” no ayuda</h2>
+<h2 id="no-entre-en-pánico-mantenga-la-calma-no-ayuda">
+<a class="anchor" href="#no-entre-en-p%C3%A1nico-mantenga-la-calma-no-ayuda" aria-hidden="true"><span class="octicon octicon-link"></span></a>“No entre en pánico. Mantenga la calma.” no ayuda</h2>
 
 <p>Una respuesta común que hemos visto en las redes sociales a las personas que señalan las razones para preocuparse es 
 “no se asuste” o “mantenga la calma”. Esto, por decir lo menos, no ayuda. Nadie sugiere que el pánico sea una respuesta 
@@ -159,7 +317,8 @@ de infecciones:</p>
   <li>Desinfecte las superficies y los paquetes (es posible que el virus permanezca activo durante 9 días en las superficies, aunque esto no se sabe con certeza).</li>
 </ul>
 
-<h2 id="no-se-trata-solo-de-usted">No se trata solo de usted</h2>
+<h2 id="no-se-trata-solo-de-usted">
+<a class="anchor" href="#no-se-trata-solo-de-usted" aria-hidden="true"><span class="octicon octicon-link"></span></a>No se trata solo de usted</h2>
 
 <p>Si tiene menos de 50 años y no tiene factores de riesgo como un sistema inmune comprometido, enfermedad cardiovascular, 
 antecedentes de tabaquismo previo u otras enfermedades crónicas, puede estar tranquilo de que es poco probable que covid-19 
@@ -197,12 +356,13 @@ decepcionar <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>.</p>
 <p>Sin embargo, sabíamos que era lo correcto, porque de lo contrario estaríamos aumentando la propagación de la enfermedad en 
 nuestra comunidad <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>.</p>
 
-<h2 id="necesitamos-aplanar-la-curva">Necesitamos aplanar la curva</h2>
+<h2 id="necesitamos-aplanar-la-curva">
+<a class="anchor" href="#necesitamos-aplanar-la-curva" aria-hidden="true"><span class="octicon octicon-link"></span></a>Necesitamos aplanar la curva</h2>
 
 <p>Esto es extremadamente importante, porque si podemos reducir la tasa de infección en una comunidad, entonces les damos a los 
 hospitales de esa comunidad tiempo para tratar con los pacientes infectados y con la carga regular de pacientes que necesitan 
 manejar. Esto se describe como “aplanamiento de la curva”, y se muestra claramente en este gráfico ilustrativo:
-<img src="https://www.fast.ai/images/coronavirus/image3.jpeg" alt="Permanecer debajo de esa línea punteada significa todo" title="Permanecer debajo de esa línea punteada significa todo" /></p>
+<img src="https://www.fast.ai/images/coronavirus/image3.jpeg" alt="Permanecer debajo de esa línea punteada significa todo" title="Permanecer debajo de esa línea punteada significa todo"></p>
 
 <p><em>Permanecer debajo de esa línea punteada significa todo</em></p>
 
@@ -221,7 +381,8 @@ acceder al tratamiento. Pero si los casos llegan demasiado rápido, aquellos que
   <p>Estados Unidos tiene alrededor de 2,8 camas de hospital por cada 1000 personas. Con una población de 330 millones, esto es ~ 1 millón de camas. En cualquier momento, el 65% de esas camas ya están ocupadas. Eso deja alrededor de 330k camas disponibles en todo el país (quizás un poco menos en esta época del año con la temporada de gripe regular, etc.). Confiemos en los números de Italia y supongamos que alrededor del 10% de los casos son lo suficientemente graves como para requerir hospitalización. (Tenga en cuenta que para muchos pacientes, la hospitalización dura semanas , en otras palabras, la rotación será muy lenta a medida que las camas se llenen de pacientes con COVID19). Según esta estimación, aproximadamente el 8 de mayo, se llenarán todas las camas de hospital abiertas en los EE. UU. (Por supuesto, esto no dice nada acerca de si estas camas son adecuadas para el aislamiento de pacientes con un virus altamente infeccioso). Si nos equivocamos por un factor de dos con respecto a la fracción de casos graves, eso solo cambia la línea de tiempo de la saturación de la cama por 6 días en cualquier dirección. Si el 20% de los casos requieren hospitalización, nos quedamos sin camas antes del ~ 2 de mayo. Si solo el 5% de los casos lo requieren, podemos llegar hasta el ~ 14 de mayo. El 2.5% nos lleva al 20 de mayo. Esto, por supuesto, supone que no hay un aumento en la demanda de camas por otras causas (no COVID19), lo que parece una suposición dudosa. A medida que el sistema de salud se vuelve cada vez más pesado, la escasez de Rx, etc., las personas con afecciones crónicas que normalmente se manejan bien pueden verse sumidas en estados graves de angustia médica que requieren cuidados intensivos y hospitalización.</p>
 </blockquote>
 
-<h2 id="la-reacción-de-una-comunidad-marca-la-diferencia">La reacción de una comunidad marca la diferencia</h2>
+<h2 id="la-reacción-de-una-comunidad-marca-la-diferencia">
+<a class="anchor" href="#la-reacci%C3%B3n-de-una-comunidad-marca-la-diferencia" aria-hidden="true"><span class="octicon octicon-link"></span></a>La reacción de una comunidad marca la diferencia</h2>
 
 <p>Como hemos discutido, esta matemática no es una certeza: China ya ha demostrado que es posible reducir la propagación 
 tomando medidas extremas. Otro gran ejemplo de una respuesta exitosa es Vietnam, donde, entre otras cosas, una campaña 
@@ -234,7 +395,7 @@ personas para ayudar a recaudar dinero para la guerra. Pero St. Louis puso en ma
 minimizar los contactos sociales a fin de disminuir la propagación del virus, junto con la cancelación de todos los grandes 
 eventos. Este es el aspecto de la cantidad de muertes en cada ciudad, como se muestra en las 
 <a href="https://www.pnas.org/content/104/18/7582">Actas de la Academia Nacional de Ciencias</a>:
-<img src="https://www.fast.ai/images/coronavirus/image4.jpeg" alt="Impacto de las diferentes respuestas a la pandemia de gripe de 1918" title="Impacto de las diferentes respuestas a la pandemia de gripe de 1918" /></p>
+<img src="https://www.fast.ai/images/coronavirus/image4.jpeg" alt="Impacto de las diferentes respuestas a la pandemia de gripe de 1918" title="Impacto de las diferentes respuestas a la pandemia de gripe de 1918"></p>
 
 <p><em>Impacto de las diferentes respuestas a la pandemia de gripe de 1918</em></p>
 
@@ -253,11 +414,12 @@ nota:</p>
 
 <p>La Oficina de Estadísticas Laborales de los Estados Unidos Muestra que menos de un tercio de los que se encuentran en la 
 banda de ingresos más bajos tienen acceso a licencia por enfermedad remunerada:
-<img src="https://www.fast.ai/images/coronavirus/image5.png" alt="La mayoría de los estadounidenses pobres no tienen licencia por enfermedad, por lo que tienen que ir a trabajar." title="La mayoría de los estadounidenses pobres no tienen licencia por enfermedad, por lo que tienen que ir a trabajar." /></p>
+<img src="https://www.fast.ai/images/coronavirus/image5.png" alt="La mayoría de los estadounidenses pobres no tienen licencia por enfermedad, por lo que tienen que ir a trabajar." title="La mayoría de los estadounidenses pobres no tienen licencia por enfermedad, por lo que tienen que ir a trabajar."></p>
 
 <p><em>La mayoría de los estadounidenses pobres no tienen licencia por enfermedad, por lo que tienen que ir a trabajar.</em></p>
 
-<h2 id="no-tenemos-buena-información-en-los-estados-unidos">No tenemos buena información en los Estados Unidos</h2>
+<h2 id="no-tenemos-buena-información-en-los-estados-unidos">
+<a class="anchor" href="#no-tenemos-buena-informaci%C3%B3n-en-los-estados-unidos" aria-hidden="true"><span class="octicon octicon-link"></span></a>No tenemos buena información en los Estados Unidos</h2>
 
 <p>Uno de los grandes problemas en los Estados unidos es que se están realizando muy pocas pruebas y los resultados de las pruebas no 
 se comparten correctamente, lo que significa que no sabemos qué está sucediendo realmente. Scott Gottlieb, el anterior 
@@ -304,7 +466,8 @@ propone como <a href="https://www.medpagetoday.com/infectiousdisease/covid19/852
 embargo, no es solo en Asia; en Francia, por ejemplo, está prohibida cualquier reunión de más de 1000 personas, y las 
 escuelas ahora están cerradas en tres distritos.</p>
 
-<h2 id="en-conclusión">En conclusión</h2>
+<h2 id="en-conclusión">
+<a class="anchor" href="#en-conclusi%C3%B3n" aria-hidden="true"><span class="octicon octicon-link"></span></a>En conclusión</h2>
 
 <p>Covid-19 es un problema social importante y todos podemos y debemos trabajar para disminuir la propagación de la enfermedad. 
 Esto significa:</p>
@@ -321,7 +484,8 @@ Esto significa:</p>
 
 <p>Gracias a Sylvain Gugger y Alexis Gallagher por sus comentarios._</p>
 
-<h3 id="notas-al-pie">Notas al pie</h3>
+<h3 id="notas-al-pie">
+<a class="anchor" href="#notas-al-pie" aria-hidden="true"><span class="octicon octicon-link"></span></a>Notas al pie</h3>
 
 <p>mortalidad y la R0 en realidad son bastante desafiantes, por lo que hay un campo completo que se especializa en hacerlo bien. 
 Desconfie de las personas que usan índices y estadísticas simples para decirle cómo se comporta covid-19. En cambio, mire los 
@@ -337,16 +501,49 @@ esperando.</p>
 <div class="footnotes">
   <ol>
     <li id="fn:1">
-      <p>Los <em>epidemiólogos</em> son personas que estudian la propagación de la enfermedad. Resulta que estimar cosas como la <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+      <p>Los <em>epidemiólogos</em> son personas que estudian la propagación de la enfermedad. Resulta que estimar cosas como la <a href="#fnref:1" class="reversefootnote">↩</a></p>
     </li>
     <li id="fn:2">
-      <p>Bueno, técnicamente no es cierto. “R0” estrictamente hablando se refiere a la tasa de infección en ausencia de respuesta. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+      <p>Bueno, técnicamente no es cierto. “R0” estrictamente hablando se refiere a la tasa de infección en ausencia de respuesta. <a href="#fnref:2" class="reversefootnote">↩</a></p>
     </li>
     <li id="fn:3">
-      <p>Desde esa decisión, hemos trabajado duro para encontrar una manera de ejecutar un curso virtual que esperamos sea <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+      <p>Desde esa decisión, hemos trabajado duro para encontrar una manera de ejecutar un curso virtual que esperamos sea <a href="#fnref:3" class="reversefootnote">↩</a></p>
     </li>
     <li id="fn:4">
-      <p>También hemos realizado muchos otros cambios menores en nuestro estilo de vida, como hacer ejercicio en casa en lugar <a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
+      <p>También hemos realizado muchos otros cambios menores en nuestro estilo de vida, como hacer ejercicio en casa en lugar <a href="#fnref:4" class="reversefootnote">↩</a></p>
     </li>
   </ol>
 </div>
+
+  </div><a class="u-url" href="/public%20health/data%20science/2020/03/09/Covid-19-datascience-translation.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Data science and machine learning thoughts, news, and resources</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/encryptedcommerce" title="encryptedcommerce"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/archimagos" title="archimagos"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
