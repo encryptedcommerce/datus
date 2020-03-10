@@ -1,3 +1,9 @@
+---
+toc: true
+layout: post
+description: A minimal example of using markdown with fastpages.
+categories: [public health, data science]
+---
 Esta es una traducción al español de 
 [Covid-19, your community, and you — a data science perspective](https://www.fast.ai/2020/03/09/coronavirus/),
 escrito por [Jeremy Howard](https://twitter.com/jeremyphoward) y [Rachel Thomas](https://twitter.com/math_rachel), y traducido por [Leonardo González](https://twitter.com/archimagos).
