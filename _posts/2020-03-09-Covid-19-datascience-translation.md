@@ -18,6 +18,9 @@ Vuelva a vincular aquí con el crédito apropiado. Háganos saber en [Twitter](h
 para que podamos agregar su traducción a esta lista.
 * [francés](https://medium.com/@xrb/covid-19-votre-communaut%C3%A9-et-vous-3e5f127910bc)
 * [español](https://datus.encryptedcommerce.net/public-health/2020/03/09/Covid-19-datascience-translation.html)
+* [alemán](https://multitudes.github.io/posts/Covid19/)
+* [portugúes brasileño](https://medium.com/@gpalmape/covid-19-sua-comunidade-e-voc%C3%AA-uma-perspectiva-de-ci%C3%AAncia-de-dados-cbdded20e436)
+* [tailandés](https://medium.com/mmaetha/covid-19-%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A1-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B9%80%E0%B8%AD%E0%B8%87-%E0%B9%83%E0%B8%99%E0%B8%A1%E0%B8%B8%E0%B8%A1%E0%B8%A1%E0%B8%AD%E0%B8%87%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5-1323c34fd4df)
 
 ## Contenido
 * [Necesitamos un sistema médico que funcione](#necesitamos-un-sistema-médico-que-funcione)
