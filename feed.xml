@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://datus.encryptedcommerce.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://datus.encryptedcommerce.net/" rel="alternate" type="text/html" /><updated>2020-03-09T23:39:57-05:00</updated><id>https://datus.encryptedcommerce.net/feed.xml</id><title type="html">Datus</title><subtitle>Data science and machine learning thoughts, news, and resources</subtitle><entry><title type="html">Covid 19 Datascience Translation</title><link href="https://datus.encryptedcommerce.net/2020/03/09/Covid-19-datascience-translation.html" rel="alternate" type="text/html" title="Covid 19 Datascience Translation" /><published>2020-03-09T00:00:00-05:00</published><updated>2020-03-09T00:00:00-05:00</updated><id>https://datus.encryptedcommerce.net/2020/03/09/Covid-19-datascience-translation</id><content type="html" xml:base="https://datus.encryptedcommerce.net/2020/03/09/Covid-19-datascience-translation.html">&lt;p&gt;Esta es una traducción al español que he hecho de 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://datus.encryptedcommerce.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://datus.encryptedcommerce.net/" rel="alternate" type="text/html" /><updated>2020-03-09T23:47:42-05:00</updated><id>https://datus.encryptedcommerce.net/feed.xml</id><title type="html">Datus</title><subtitle>Data science and machine learning thoughts, news, and resources</subtitle><entry><title type="html">Covid 19 Datascience Translation</title><link href="https://datus.encryptedcommerce.net/2020/03/09/Covid-19-datascience-translation.html" rel="alternate" type="text/html" title="Covid 19 Datascience Translation" /><published>2020-03-09T00:00:00-05:00</published><updated>2020-03-09T00:00:00-05:00</updated><id>https://datus.encryptedcommerce.net/2020/03/09/Covid-19-datascience-translation</id><content type="html" xml:base="https://datus.encryptedcommerce.net/2020/03/09/Covid-19-datascience-translation.html">&lt;p&gt;Esta es una traducción al español de 
 &lt;a href=&quot;https://www.fast.ai/2020/03/09/coronavirus/&quot;&gt;Covid-19, your community, and you — a data science perspective&lt;/a&gt;,
-escrito por &lt;a href=&quot;https://twitter.com/jeremyphoward&quot;&gt;Jeremy Howard&lt;/a&gt; y &lt;a href=&quot;https://twitter.com/math_rachel&quot;&gt;Rachel Thomas&lt;/a&gt;.&lt;/p&gt;
+escrito por &lt;a href=&quot;https://twitter.com/jeremyphoward&quot;&gt;Jeremy Howard&lt;/a&gt; y &lt;a href=&quot;https://twitter.com/math_rachel&quot;&gt;Rachel Thomas&lt;/a&gt;, y traducido por &lt;a href=&quot;https://twitter.com/archimagos&quot;&gt;Leonardo González&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h1 id=&quot;covid-19-su-comunidad-y-usted-una-perspectiva-de-ciencia-de-datos&quot;&gt;Covid-19, su comunidad y usted: una perspectiva de ciencia de datos&lt;/h1&gt;
 
@@ -14,6 +14,7 @@ Vuelva a vincular aquí con el crédito apropiado. Háganos saber en &lt;a href=
 para que podamos agregar su traducción a esta lista.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://medium.com/@xrb/covid-19-votre-communaut%C3%A9-et-vous-3e5f127910bc&quot;&gt;francés&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://datus.encryptedcommerce.net/2020/03/09/Covid-19-datascience-translation.html&quot;&gt;español&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;contenido&quot;&gt;Contenido&lt;/h2&gt;
@@ -348,4 +349,4 @@ esperando.&lt;/p&gt;
       &lt;p&gt;También hemos realizado muchos otros cambios menores en nuestro estilo de vida, como hacer ejercicio en casa en lugar &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Esta es una traducción al español que he hecho de Covid-19, your community, and you — a data science perspective, escrito por Jeremy Howard y Rachel Thomas.</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Esta es una traducción al español de Covid-19, your community, and you — a data science perspective, escrito por Jeremy Howard y Rachel Thomas, y traducido por Leonardo González.</summary></entry></feed>
