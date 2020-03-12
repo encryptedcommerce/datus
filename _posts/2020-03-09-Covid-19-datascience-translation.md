@@ -14,23 +14,29 @@ escrito por [Jeremy Howard](https://twitter.com/jeremyphoward) y [Rachel Thomas]
 
 ## Traducciones
 Cualquiera puede traducir este artículo para ayudar a sus comunidades locales a comprender estos problemas. 
-Vuelva a vincular aquí con el crédito apropiado. Háganos saber en [Twitter](https://twitter.com/jeremyphoward) 
+Incluya este enlace con el crédito apropiado. Háganos saber en [Twitter](https://twitter.com/jeremyphoward) 
 para que podamos agregar su traducción a esta lista.
 * [francés](https://medium.com/@xrb/covid-19-votre-communaut%C3%A9-et-vous-3e5f127910bc)
 * [español](https://datus.encryptedcommerce.net/public-health/2020/03/09/Covid-19-datascience-translation.html)
 * [alemán](https://multitudes.github.io/posts/Covid19/)
-* [portugúes brasileño](https://medium.com/@gpalmape/covid-19-sua-comunidade-e-voc%C3%AA-uma-perspectiva-de-ci%C3%AAncia-de-dados-cbdded20e436)
+* [italiano](https://medium.com/@ricangius/covid-19-la-tua-comunit%C3%A0-e-te-una-prospettiva-dalla-data-science-196845fc9275)
+* [rumano](https://www.nimirea.com/blog/2020/03/11/covid19-comunitatea-voastra-si-voi/)
+* [polaco](https://medium.com/@maciekwilczynski/koronawirus-twoja-spo%C5%82eczno%C5%9B%C4%87-i-ty-perspektywa-danych-8c10122db5bd)
+* [portugués brasileño](https://medium.com/@gpalmape/covid-19-sua-comunidade-e-voc%C3%AA-uma-perspectiva-de-ci%C3%AAncia-de-dados-cbdded20e436)
+* [chino](https://www.twofyw.me/update/2020/02/10/Covid-19,-your-community,-and-you.html)
+* [maratí](https://fintalklabs.com/covid-19-corona-virus/)
+* [swahili](https://asvcode.github.io/covid19-translations/markdown/2020/03/10/Swahili.html)
 * [tailandés](https://medium.com/mmaetha/covid-19-%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A1-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B9%80%E0%B8%AD%E0%B8%87-%E0%B9%83%E0%B8%99%E0%B8%A1%E0%B8%B8%E0%B8%A1%E0%B8%A1%E0%B8%AD%E0%B8%87%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5-1323c34fd4df)
 
 ## Contenido
 * [Necesitamos un sistema médico que funcione](#necesitamos-un-sistema-médico-que-funcione)
 * [Esto no es como la gripe](#esto-no-es-como-la-gripe)
-* [“No entre en pánico. Mantenga la calma.” no ayuda](#no-entre-en-pánico-mantenga-la-calma-no-ayuda)
+* [No ayuda decir: “No entre en pánico. Mantenga la calma.”](#no-ayuda-decir-no-entre-en-pánico-mantenga-la-calma)
 * [No se trata solo de usted](#no-se-trata-solo-de-usted)
 * [Necesitamos aplanar la curva](#necesitamos-aplanar-la-curva)
 * [La reacción de una comunidad marca la diferencia](#la-reacción-de-una-comunidad-marca-la-diferencia)
 * [No tenemos buena información en los Estados Unidos](#no-tenemos-buena-información-en-los-estados-unidos)
-* [En conclusión](#en-conclusión)
+* [Conclusión](#Conclusión)
 
 ## Necesitamos un sistema médico que funcione
 Hace poco más de 2 años, uno de nosotros (Rachel) sufrió una infección cerebral que mata a aproximadamente 1/4 de las 
@@ -45,57 +51,57 @@ significa que la cantidad de personas infectadas puede aumentar 100 veces en tre
 pero no nos distraigamos con detalles técnicos). Una de cada 10 personas infectadas requiere hospitalización durante muchas 
 semanas, y la mayoría de ellas requieren oxígeno. Aunque es muy temprano para este virus, ya hay regiones donde los 
 hospitales están completamente desbordados, y las personas ya no pueden obtener el tratamiento que requieren (no solo para 
-covid-19, sino también para cualquier otra cosa, como el cuidado para salvar vidas que Rachel necesitaba). Por ejemplo, en 
+covid-19, sino también para cualquier otra cosa, como la atención que Rachel necesitaba para salvarle la vida). Por ejemplo, en 
 Italia, donde hace solo una semana los funcionarios decían que todo estaba bien, ahora dieciséis millones de personas han 
-sido bloqueadas ( actualización: 6 horas después de publicar esto, Italia puso a todo el país en bloqueo ), y carpas como 
-esta se están configurando para ayudar a manejar la afluencia de pacientes:
+sido aisladas ( actualización: 6 horas después de publicar esto, Italia puso a todo el país en aislamiento ), y carpas como 
+esta se están levantando para ayudar a manejar la oleada de pacientes:
 ![Una carpa médica utilizada en Italia](https://www.fast.ai/images/coronavirus/image1.jpeg "Una carpa médica utilizada en Italia")
 
 *Una carpa médica utilizada en Italia*
 
 El Dr. Antonio Pesenti, jefe de la unidad regional de respuesta a la crisis en una zona muy afectada de Italia, 
 [dijo](https://www.reuters.com/article/us-health-coronavirus-italy/alarmed-italy-locks-down-north-to-prevent-spread-of-coronavirus-idUSKBN20V06R) :
-“Ahora nos vemos obligados a establecer tratamientos de cuidados intensivos en corredores, quirófanos, salas de recuperación... 
+“Estamos siendo forzados a acondicionar lugares de cuidados intensivos en corredores, quirófanos, salas de recuperación... 
 Uno de los mejores sistemas de salud del mundo, en Lombardía está a un paso del colapso”.
 
 ## Esto no es como la gripe
 
 La gripe tiene una tasa de mortalidad de alrededor del 0,1% de las infecciones. Marc Lipsitch, director del 
-[Centro de Dinámica de Enfermedades Transmisibles](https://ccdd.hsph.harvard.edu/) de Harvard, estima que [para covid-19 es 
+[Centro de Dinámica de Enfermedades Transmisibles](https://ccdd.hsph.harvard.edu/) de Harvard, calcula que [para covid-19 es 
 entre el 1% al 2%](https://www.washingtonpost.com/opinions/2020/03/06/why-its-so-hard-pin-down-risk-dying-coronavirus/).
 El último modelo epedemiológico encontró una tasa de 1,6% en China en febrero, dieciséis veces más alta 
 que la gripe [^1] (sin embargo, este podría ser un número bastante conservador, porque las tasas aumentan mucho cuando el 
-sistema de salud no da a basto). Las mejores estimaciones actuales esperan que covid-19 matará 10 veces más personas 
+sistema de salud no da a basto). Los mejores cálculos actuales esperan que el COVID-19 matará 10 veces más personas 
 este año que la gripe (y [los modelos de Elena Grewal](https://docs.google.com/spreadsheets/d/1ktSfdDrX_uJsdM08azBflVOm4Z5ZVE75nA0lGygNgaA/edit?usp=sharing), ex directora de ciencia de datos en Airbnb, muestra que podría ser 
 100 veces más, en el peor de los casos). Esto es antes de tener en cuenta el gran impacto en el sistema médico, como el 
 descrito anteriormente. Es comprensible que algunas personas estén tratando de convencerse de que esto no es nada nuevo, 
 una enfermedad muy parecida a la gripe, porque es muy incómodo aceptar la realidad de que esto no es para nada familiar.
 
-Tratar de comprender intuitivamente un crecimiento exponencial en el número de personas infectadas no es algo que nuestros 
-cerebros estén diseñados para manejar. Entonces tenemos que analizar esto como científicos, no utilizando nuestra intuición.
+Tratar de comprender intuitivamente un crecimiento exponencial en el número de personas infectadas no es algo a lo que nuestros 
+cerebros están diseñados para manejar. Entonces tenemos que analizar esto como científicos, no utilizando nuestra intuición.
 ![¿En qué estará esto en 2 semanas? ¿2 meses?](https://www.fast.ai/images/coronavirus/image2.png)
 
-*¿En qué estará esto en 2 semanas? ¿2 meses?*
+*¿En qué estará esto en dos semanas? ¿En dos meses?*
 
-Por cada persona que tiene gripe, en promedio, infectan a otras 1,3 personas. Eso se llama “R0” para la gripe. Si R0 es 
-menor que 1.0, entonces una infección deja de propagarse y desaparece. Si está por encima de 1,0 se extiende. R0 
-actualmente es 2-3 para covid-19 fuera de China. La diferencia puede sonar pequeña, pero después de 20 "generaciones" de 
-personas infectadas que transmiten su infección, un R0 de 1,3 daría como resultado 146 infecciones, ¡pero un R0 de 2,5 daría 
+Por cada persona que tiene gripe, en promedio, infectan a otras 1,3 personas. Eso se llama “R0” (velocidad de infección) para la gripe. Si la R0 es 
+menor que 1.0, entonces una infección deja de propagarse y desaparece. Si está por encima de 1,0 se extiende. Actualmente la R0 
+para covid-19 es 2-3 fuera de China. La diferencia puede sonar pequeña, pero después de 20 "generaciones" de 
+personas infectadas que transmiten su infección, una R0 de 1,3 daría como resultado 146 infecciones, ¡pero un R0 de 2,5 daría 
 como resultado 36 millones de infecciones! (Esto es, por supuesto, una generalización e ignora muchos impactos del mundo real, 
 pero es una ilustración razonable de la diferencia _relativa_ entre covid-19 y la gripe, todas las demás cosas siendo iguales).
 
-Tenga en cuenta que R0 no es una propiedad fundamental de una enfermedad. Depende en gran medida de la respuesta pública, y puede 
-cambiar con el tiempo [^2] . En particular, en China, R0 para covid-19 ha bajado mucho y ahora se acerca a 1,0. ¿Cómo, preguntas?
-Poniendo en práctica medidas a una escala que sería difícil de imaginar en un país como los Estados Unidos -- por ejemplo, bloqueando 
-por completo muchas ciudades gigantes y desarrollando un proceso de pruebas que permite administrar la prueba a más de un millón de 
+Tenga en cuenta que la R0 no es una propiedad fundamental de una enfermedad. Depende en gran medida de la respuesta pública, y puede 
+cambiar con el tiempo [^2] . En particular, en China, la R0 para el covid-19 ha bajado mucho y ahora se acerca a 1,0. ¿Cómo, preguntas?
+Poniendo en práctica medidas a una escala que sería difícil de imaginar en un país como los Estados Unidos -- por ejemplo, aislando 
+por completo muchas ciudades gigantes y desarrollando un proceso de pruebas que permita administrar las pruebas a más de un millón de 
 personas por semana.
 
-Una cosa que surge mucho en las redes sociales (incluso de cuentas muy seguidas como Elon Musk) es un malentendido de la 
+Una cosa que surge mucho en las redes sociales (incluso de cuentas muy seguidas como la de Elon Musk) es el malentendido de la 
 diferencia entre el crecimiento _logístico_ y _exponencial_. El crecimiento “logístico” se refiere al patrón de crecimiento 
-“en forma de s” de propagación epidémica en la práctica. Obviamente, el crecimiento exponencial no puede continuar para 
+“en forma de S” de propagación epidémica en la práctica. Obviamente, el crecimiento exponencial no puede continuar para 
 siempre, ya que de lo contrario habría más personas infectadas que personas en el mundo. Por lo tanto, eventualmente, las 
 tasas de infección siempre deben disminuir, lo que resulta en una tasa de crecimiento en forma de S (conocida como _sigmoidea_)
-con el tiempo. Sin embargo, el crecimiento decreciente solo ocurre por una razón -- no es magia. Las razones principales son:
+con el tiempo. Sin embargo, la rebaja en el crecimiento solo ocurre por ciertas razones -- no es magia. Las razones principales son:
 
 * Respuesta comunitaria masiva y efectiva, o
 * Un porcentaje tan grande de personas infectadas que hay menos personas no infectadas para contagiarse.
@@ -104,17 +110,17 @@ Por lo tanto, no tiene sentido lógico confiar en el patrón de crecimiento log�
 pandemia.
 
 Otra cosa que dificulta la comprensión intuitiva del impacto de covid-19 en su comunidad local es que hay un retraso muy 
-significativo entre la infección y la hospitalización, generalmente alrededor de 11 días. Esto puede no parecer mucho tiempo, 
+significativo entre la infección y la hospitalización, de alrededor de 11 días, generalmente. Esto puede no parecer mucho tiempo, 
 pero cuando se compara con la cantidad de personas infectadas durante ese tiempo, significa que cuando se note que las camas 
-de hospital estén llenas, la infección de la comunidad ya estará a un nivel en el que habrán 5-10 veces más personas con que lidiar.
+de hospital están llenas, la infección de la comunidad ya estará a un nivel en el que habrán 5-10 veces más personas con que lidiar.
 
 Tenga en cuenta que hay algunas señales tempranas de que el impacto en su área local puede ser al menos algo dependiente del 
 clima. El artículo [análisis de temperatura y latitud para predecir la propagación potencial y la estacionalidad para covid-19](https://poseidon01.ssrn.com/delivery.php?ID=091071099092098096101097074089104068104013035023062021010031112088025099126064001093097030102106046016114116082016095089113023126034089078012119081090111118122007110026000085123071022022127025026080005029001020025126022000066075021086079031101116126112&EXT=pdf)
 señala que la enfermedad se ha propagado hasta ahora en climas templados (desafortunadamente para nosotros, el rango de 
 temperatura en San Francisco, donde vivimos, está en ese rango; también cubre los principales centros de población de
-Europa, incluido Londres.)
+Europa, incluyendo a Londres.)
 
-## “No entre en pánico. Mantenga la calma.” no ayuda
+## No ayuda decir: “No entre en pánico. Mantenga la calma.”
 
 Una respuesta común que hemos visto en las redes sociales a las personas que señalan las razones para preocuparse es 
 “no se asuste” o “mantenga la calma”. Esto, por decir lo menos, no ayuda. Nadie sugiere que el pánico sea una respuesta 
@@ -134,7 +140,7 @@ estadísticas de infección).
 Tenga en cuenta que casi todo lo relacionado con covid-19 en esta etapa está indefinido. Realmente no conocemos la 
 velocidad o la mortalidad de la infección, no sabemos cuánto tiempo permanece activo en las superficies, y no sabemos si 
 sobrevive y se propaga en condiciones cálidas. Todo lo que tenemos son las mejores conjeturas actuales basadas en la mejor 
-información que las personas pueden reunir. Y recuerde, la gran mayoría de esta información está en China, en chino. 
+información que las personas han podido reunir. Y recuerde, la gran mayoría de esta información está en China, en chino. 
 Actualmente, la mejor manera de entender la experiencia china hasta ahora es leer el excelente 
 [Informe de la Misión Conjunta OMS-China sobre la Enfermedad por Coronavirus 2019](https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf),
 basado en una misión conjunta de 25 expertos nacionales e internacionales de China, Alemania, Japón, Corea, Nigeria, Rusia, 
@@ -150,21 +156,21 @@ la UCI de áreas infectadas](https://www.repubblica.it/cronaca/2020/03/08/news/c
 
 En cambio, la respuesta razonable es seguir los pasos recomendados por los expertos para evitar la propagación de infecciones:
 
-* Evite grupos grandes y multitudes.
+* Evitar grupos grandes y multitudes.
 * Cancelar eventos
 * Trabajar desde casa, si es posible
-* Lávese las manos cuando vaya y venga de casa, y con frecuencia cuando salga
-* Evite tocarse la cara, especialmente cuando esté fuera de su casa (¡no es fácil!)
-* Desinfecte las superficies y los paquetes (es posible que el virus permanezca activo durante 9 días en las superficies, aunque esto no se sabe con certeza).
+* Lavarse las manos cuando salga y venga de la casa, y con frecuencia cuando salga
+* Evitar tocarse la cara, especialmente cuando esté fuera de su casa (¡no es fácil!)
+* Desinfectar las superficies y los paquetes (es posible que el virus permanezca activo durante 9 días en las superficies, aunque esto no se sabe con certeza).
 
-## No se trata solo de usted
+## No se trata sólo de usted
 
-Si tiene menos de 50 años y no tiene factores de riesgo como un sistema inmune comprometido, enfermedad cardiovascular, 
-antecedentes de tabaquismo previo u otras enfermedades crónicas, puede estar tranquilo de que es poco probable que covid-19 
-lo mate. Pero cómo responde aún importa mucho. Aún tiene la misma probabilidad de infectarse y, si lo hace, la misma 
+Si usted tiene menos de 50 años y no tiene factores de riesgo como un sistema inmune comprometido, enfermedad cardiovascular, 
+antecedentes de tabaquismo previo u otras enfermedades crónicas, puede estar tranquilo de que es poco probable que el COVID-19 
+lo mate. Pero aún así, importa mucho cómo responda. Aún tiene la misma probabilidad de infectarse y, si es así, tiene la misma 
 probabilidad de infectar a otros. En promedio, cada persona infectada está infectando a más de dos personas más, y se 
 vuelven infecciosas antes de mostrar síntomas. Si tienes padres que te importan, o abuelos, y planeas pasar tiempo con ellos, 
-y luego descubres que eres responsable de infectarlos con covid-19, sería una carga pesada con que vivir.
+y luego descubres que eres responsable de infectarlos con covid-19, sería una carga pesada con la cual vivir.
 
 Incluso si no está en contacto con personas mayores de 50 años, es probable que tenga más compañeros de trabajo y conocidos 
 con enfermedades crónicas de lo que cree. La investigación muestra que [pocas personas revelan sus condiciones de salud](https://www.talentinnovation.org/_private/assets/DisabilitiesInclusion_KeyFindings-CTI.pdf) 
@@ -172,12 +178,11 @@ en el lugar de trabajo si pueden evitarlo, [por temor a la discriminación](http
 Ambos estamos en categorías de alto riesgo, pero muchas personas con las que interactuamos regularmente pueden no haberlo sabido.
 
 Además, por supuesto, no se trata solo de las personas que te rodean inmediatamente. Este es un problema ético muy 
-significativo. Cada persona que hace todo lo posible para contribuir a controlar la propagación del virus está ayudando a 
-toda su comunidad a reducir la tasa de infección. Como Zeynep Tufekci [escribió en Scientific American](https://blogs.scientificamerican.com/observations/preparing-for-coronavirus-to-strike-the-u-s/): 
+significativo. Cada persona que hace todo lo posible para contribuir a controlar la propagación del virus está ayudando a reducir la tasa de infección de su comunidad. Como Zeynep Tufekci [escribió en Scientific American](https://blogs.scientificamerican.com/observations/preparing-for-coronavirus-to-strike-the-u-s/): 
 “Prepararse para la propagación mundial casi inevitable de este virus... es una de las cosas más pro-sociales y altruistas 
 que puedes hacer”. Ella continúa:
 
-> Debemos prepararnos, no porque podamos sentirnos personalmente en riesgo, sino para que podamos ayudar a disminuir el riesgo para todos. Debemos prepararnos no porque nos enfrentamos a un escenario del fin del mundo fuera de nuestro control, sino porque podemos alterar todos los aspectos de este riesgo que enfrentamos como sociedad. Así es, usted debe prepararse porque sus vecinos necesitan que se prepare, especialmente sus vecinos mayores, sus vecinos que trabajan en hospitales, sus vecinos con enfermedades crónicas y sus vecinos que pueden no tener los medios o el tiempo para prepararse debido a la falta de recursos o tiempo.
+> Debemos prepararnos, no porque podamos sentirnos personalmente en riesgo, sino para que podamos ayudar a disminuir el riesgo para todos. Debemos prepararnos no porque nos enfrentamos a un escenario del fin del mundo fuera de nuestro control, sino porque podemos alterar todos los aspectos de este riesgo que enfrentamos como sociedad. Así es pues que usted debe prepararse porque sus vecinos necesitan que se prepare, especialmente sus vecinos mayores, sus vecinos que trabajan en hospitales, sus vecinos con enfermedades crónicas y sus vecinos que pueden no tener los medios o el tiempo para prepararse debido a la falta de recursos o tiempo.
 
 Esto nos ha impactado personalmente. El curso más grande e importante que hemos creado en fast.ai, que representa la 
 culminación de años de trabajo para nosotros, estaba programado para comenzar en la Universidad de San Francisco en una 
@@ -196,7 +201,7 @@ nuestra comunidad [^4].
 ## Necesitamos aplanar la curva
 
 Esto es extremadamente importante, porque si podemos reducir la tasa de infección en una comunidad, entonces les damos a los 
-hospitales de esa comunidad tiempo para tratar con los pacientes infectados y con la carga regular de pacientes que necesitan 
+hospitales de esa comunidad tiempo para tratar a los pacientes infectados y para seguir con la carga regular de pacientes que necesitan 
 manejar. Esto se describe como “aplanamiento de la curva”, y se muestra claramente en este gráfico ilustrativo:
 ![Permanecer debajo de esa línea punteada significa todo](https://www.fast.ai/images/coronavirus/image3.jpeg "Permanecer debajo de esa línea punteada significa todo")
 
@@ -206,14 +211,14 @@ Farzad Mostashari, el ex Coordinador Nacional de TI de Salud, explicó: “Todos
 tienen un historial de viaje o conexión con un caso conocido, _y sabemos que estos son solo la punta del iceberg_ debido a la 
 retrasos en las pruebas. Eso significa que en las próximas dos semanas el número de casos diagnosticados explotará... Tratar 
 de contener la situación cuando hay una extensión exponencial de la comunidad es como enfocarse en apagar chispas cuando la 
-casa está en llamas. Cuando eso suceda, debemos cambiar las estrategias a la mitigación: tomar medidas de protección para 
+casa está en llamas. Cuando eso suceda, debemos cambiar las estrategias para la mitigación: tomar medidas de protección para 
 reducir la propagación y reducir el impacto máximo en la atención médica”. Si podemos mantener la propagación de la 
 enfermedad lo suficientemente baja como para que nuestros hospitales puedan manejar la carga, entonces las personas podrán 
 acceder al tratamiento. Pero si los casos llegan demasiado rápido, aquellos que necesitan hospitalización no la recibirán.
 
 Así es como se verían las matemáticas, [según Liz Specht](https://twitter.com/LizSpecht/status/1236095186737852416):
 
-> Estados Unidos tiene alrededor de 2,8 camas de hospital por cada 1000 personas. Con una población de 330 millones, esto es ~ 1 millón de camas. En cualquier momento, el 65% de esas camas ya están ocupadas. Eso deja alrededor de 330k camas disponibles en todo el país (quizás un poco menos en esta época del año con la temporada de gripe regular, etc.). Confiemos en los números de Italia y supongamos que alrededor del 10% de los casos son lo suficientemente graves como para requerir hospitalización. (Tenga en cuenta que para muchos pacientes, la hospitalización dura semanas , en otras palabras, la rotación será muy lenta a medida que las camas se llenen de pacientes con COVID19). Según esta estimación, aproximadamente el 8 de mayo, se llenarán todas las camas de hospital abiertas en los EE. UU. (Por supuesto, esto no dice nada acerca de si estas camas son adecuadas para el aislamiento de pacientes con un virus altamente infeccioso). Si nos equivocamos por un factor de dos con respecto a la fracción de casos graves, eso solo cambia la línea de tiempo de la saturación de la cama por 6 días en cualquier dirección. Si el 20% de los casos requieren hospitalización, nos quedamos sin camas antes del ~ 2 de mayo. Si solo el 5% de los casos lo requieren, podemos llegar hasta el ~ 14 de mayo. El 2.5% nos lleva al 20 de mayo. Esto, por supuesto, supone que no hay un aumento en la demanda de camas por otras causas (no COVID19), lo que parece una suposición dudosa. A medida que el sistema de salud se vuelve cada vez más pesado, la escasez de Rx, etc., las personas con afecciones crónicas que normalmente se manejan bien pueden verse sumidas en estados graves de angustia médica que requieren cuidados intensivos y hospitalización.
+> Estados Unidos tiene alrededor de 2,8 camas de hospital por cada 1000 personas. Con una población de 330 millones, esto es ~ 1 millón de camas. En cualquier momento, el 65% de esas camas ya están ocupadas. Eso deja alrededor de 330k camas disponibles en todo el país (quizás un poco menos en esta época del año con la temporada de gripe regular, etc.). Confiemos en los números de Italia y supongamos que alrededor del 10% de los casos son lo suficientemente graves como para requerir hospitalización. (Tenga en cuenta que para muchos pacientes, la hospitalización dura semanas , en otras palabras, la rotación será muy lenta a medida que las camas se llenen de pacientes con COVID19). Según este cálculo, aproximadamente el 8 de mayo, se llenarán todas las camas de hospital abiertas en los EE. UU. (Por supuesto, esto no dice nada acerca de si estas camas son adecuadas para el aislamiento de pacientes con un virus altamente infeccioso). Si nos equivocamos por un factor de dos con respecto a la fracción de casos graves, eso solo cambia la línea de tiempo de la saturación de la cama por 6 días en cualquier dirección. Si el 20% de los casos requieren hospitalización, nos quedamos sin camas antes del ~ 2 de mayo. Si solo el 5% de los casos lo requieren, podemos llegar hasta el ~ 14 de mayo. El 2.5% nos lleva al 20 de mayo. Esto, por supuesto, supone que no hay un aumento en la demanda de camas por otras causas (no COVID19), lo que parece una suposición dudosa. A medida que el sistema de salud se vuelve cada vez más pesado, la escasez de Rx, etc., las personas con afecciones crónicas que normalmente se manejan bien pueden verse sumidas en estados graves de angustia médica que requieren cuidados intensivos y hospitalización.
 
 ## La reacción de una comunidad marca la diferencia
 
@@ -226,7 +231,7 @@ Esta no es solo una situación hipotética: se mostró claramente en la pandemia
 ciudades mostraron reacciones muy diferentes a la pandemia: Filadelfia siguió adelante con un desfile gigante de 200.000 
 personas para ayudar a recaudar dinero para la guerra. Pero St. Louis puso en marcha procesos cuidadosamente diseñados para 
 minimizar los contactos sociales a fin de disminuir la propagación del virus, junto con la cancelación de todos los grandes 
-eventos. Este es el aspecto de la cantidad de muertes en cada ciudad, como se muestra en las 
+eventos. Este es el cuadro de la cantidad de muertes en cada ciudad, como se muestra en las 
 [Actas de la Academia Nacional de Ciencias](https://www.pnas.org/content/104/18/7582):
 ![Impacto de las diferentes respuestas a la pandemia de gripe de 1918](https://www.fast.ai/images/coronavirus/image4.jpeg "Impacto de las diferentes respuestas a la pandemia de gripe de 1918")
 
@@ -254,7 +259,7 @@ banda de ingresos más bajos tienen acceso a licencia por enfermedad remunerada:
 Uno de los grandes problemas en los Estados unidos es que se están realizando muy pocas pruebas y los resultados de las pruebas no 
 se comparten correctamente, lo que significa que no sabemos qué está sucediendo realmente. Scott Gottlieb, el anterior 
 comisionado de la FDA, explicó que en Seattle se han realizado mejores pruebas, y estamos viendo infecciones allí: 
-“La razón por la que supimos temprano sobre el brote de covid-19 en Seattle fue debido al trabajo de vigilancia centinela 
+“La razón por la que supimos temprano sobre el brote del COVID-19 en Seattle fue debido al trabajo de vigilancia centinela 
 realizado por científicos independientes. Tal vigilancia nunca se puso en marcha totalmente en otras ciudades. Por lo tanto, 
 es posible que otros puntos calientes de los Estados Unidos aún no se detecten por completo”. 
 Según [The Atlantic](https://www.theatlantic.com/health/archive/2020/03/how-many-americans-have-been-tested-coronavirus/607597/), 
@@ -273,7 +278,7 @@ Este es un ejemplo de dónde la optimización de las métricas interfiere con la
 inteligencia artificial de Google, Jeff Dean, [tuiteó su preocupación](https://twitter.com/JeffDean/status/1236489084870119427) 
 por los problemas de desinformación politizada:
 
-> Cuando trabajaba en la OMS, formaba parte del Programa Mundial sobre el SIDA (ahora ONUSIDA), creado para ayudar al mundo a combatir la pandemia del VIH / SIDA. El personal allí era médicos y científicos dedicados que se enfocaban intensamente en ayudar a abordar esa crisis. En tiempos de crisis, la información clara y precisa es vital para ayudar a todos a tomar decisiones adecuadas e informadas sobre cómo responder (gobiernos de países, estados y locales, empresas, ONG, escuelas, familias e individuos). Con la información y las políticas adecuadas para escuchar a los mejores expertos médicos y científicos, todos enfrentaremos desafíos como los presentados por el VIH / SIDA o COVID-19. Con la desinformación impulsada por intereses políticos, existe un riesgo real de empeorar las cosas al no actuar de manera rápida y decisiva frente a una pandemia cada vez mayor, y al alentar activamente comportamientos que realmente propagarán la enfermedad más rápidamente. Toda esta situación es increíblemente dolorosa de ver desarrollarse.
+> Cuando trabajaba en la OMS, formaba parte del Programa Mundial sobre el SIDA (ahora ONUSIDA), creado para ayudar al mundo a combatir la pandemia del VIH / SIDA. El personal allí era médicos y científicos dedicados que se enfocaban intensamente en ayudar a abordar esa crisis. En tiempos de crisis, la información clara y precisa es vital para ayudar a todos a tomar decisiones adecuadas e informadas sobre cómo responder (gobiernos de países, estados y locales, empresas, ONG, escuelas, familias e individuos). Con la información y las políticas adecuadas para escuchar a los mejores expertos médicos y científicos, todos enfrentaremos desafíos como los presentados por el VIH / SIDA o COVID-19. Con la desinformación impulsada por intereses políticos, existe un riesgo real de empeorar las cosas al no actuar de manera rápida y decisiva frente a una pandemia cada vez mayor, y al alentar activamente comportamientos que realmente propagarán la enfermedad más rápidamente. Es increíblemente doloroso ver el desarrollo de esta situación.
 
 No parece que haya voluntad política para cambiar las cosas cuando se trata de transparencia. El secretario de Salud y 
 Servicios Humanos, Alex Azar, según Wired , “comenzó a hablar sobre las pruebas que los trabajadores de la salud usan para 
@@ -282,15 +287,15 @@ información epidemiológica sobre la propagación y la gravedad de la enfermeda
 opacidad por parte del gobierno. Azar intentó decir que había más pruebas en camino, a la espera del control de calidad”.
 Pero ellos continuaron:
 
-> Entonces Trump cortó a Azar. “Pero creo que, lo que es más importante, cualquiera, en este momento y ayer, que necesita una prueba, se hace una prueba. Están allí, tienen las pruebas y las pruebas son hermosas. Cualquiera que necesite una prueba se hace una prueba ”, dijo Trump. Esto no es cierto. El vicepresidente Pence dijo a los periodistas el jueves que Estados Unidos no tenía suficientes kits de prueba para satisfacer la demanda.
+> Entonces Trump cortó a Azar. “Pero creo que, lo que es más importante, cualquiera, en este momento y ayer, que necesita una prueba, se hace una prueba. Están allí, tienen las pruebas y las pruebas son hermosas. Cualquiera que necesite una prueba se hace una prueba”, dijo Trump. Esto no es cierto. El vicepresidente Pence dijo a los periodistas el jueves que Estados Unidos no tenía suficientes kits de prueba para satisfacer la demanda.
 
 Otros países están reaccionando mucho más rápido y significativamente que los Estados Unidos. Muchos países en el sudeste 
-asiático están mostrando excelentes resultados, incluidos Taiwán, donde R0 ahora se ha reducido a 0.3, y Singapur, que se 
+asiático están mostrando excelentes resultados, incluidos Taiwán, donde la R0 ahora se ha reducido a 0.3, y Singapur, que se 
 propone como [El modelo para la respuesta COVID-19](https://www.medpagetoday.com/infectiousdisease/covid19/85254). Sin 
 embargo, no es solo en Asia; en Francia, por ejemplo, está prohibida cualquier reunión de más de 1000 personas, y las 
 escuelas ahora están cerradas en tres distritos.
 
-## En conclusión
+## Conclusión
 
 Covid-19 es un problema social importante y todos podemos y debemos trabajar para disminuir la propagación de la enfermedad. 
 Esto significa:
@@ -298,7 +303,7 @@ Esto significa:
 * Evitar grandes grupos y multitudes
 * Cancelar eventos
 * Trabajar desde casa, si es posible
-* Lavarse las manos cuando vaya y venga de casa, y con frecuencia cuando esté fuera
+* Lavarse las manos cuando salga y llegue a casa, y con frecuencia cuando esté fuera
 * Evitar tocarse la cara, especialmente cuando esté fuera de su casa
 
 _Nota: debido a la urgencia de sacar esto a la luz, no hemos sido tan cuidadosos como normalmente nos gustaría ser sobre citar y acreditar el trabajo en el que confiamos. Por favor, háganos saber si nos hemos perdido algo.
@@ -307,7 +312,7 @@ Gracias a Sylvain Gugger y Alexis Gallagher por sus comentarios._
 
 ### Notas al pie
 
-[^1]: Los _epidemiólogos_ son personas que estudian la propagación de la enfermedad. Resulta que estimar cosas como la mortalidad y la R0 en realidad son bastante desafiantes, por lo que hay un campo completo que se especializa en hacerlo bien.  Desconfie de las personas que usan índices y estadísticas simples para decirle cómo se comporta covid-19. En cambio, mire los modelos realizado por epidemiólogos.
+[^1]: Los _epidemiólogos_ son personas que estudian la propagación de la enfermedad. Resulta que calcular cosas como la mortalidad y la R0 en realidad son bastante desafiantes, por lo que hay un campo completo que se especializa en hacerlo bien.  Desconfíe de las personas que usan índices y estadísticas simples para decirle cómo se comporta el covid-19. En cambio, mire los modelos realizado por epidemiólogos.
 
 [^2]: Bueno, técnicamente no es cierto. “R0” estrictamente hablando se refiere a la tasa de infección en ausencia de respuesta.  Pero dado que eso no es lo que realmente nos importa, nos dejaremos ser un poco descuidados con nuestras definiciones aquí.
 
