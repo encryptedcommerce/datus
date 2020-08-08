@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://datus.encryptedcommerce.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://datus.encryptedcommerce.net/" rel="alternate" type="text/html" /><updated>2020-03-12T12:14:52-05:00</updated><id>https://datus.encryptedcommerce.net/feed.xml</id><title type="html">Datus</title><subtitle>Data science and machine learning thoughts, news, and resources</subtitle><entry><title type="html">Covid 19 Datascience Translation</title><link href="https://datus.encryptedcommerce.net/public-health/2020/03/09/Covid-19-datascience-translation.html" rel="alternate" type="text/html" title="Covid 19 Datascience Translation" /><published>2020-03-09T00:00:00-05:00</published><updated>2020-03-09T00:00:00-05:00</updated><id>https://datus.encryptedcommerce.net/public-health/2020/03/09/Covid-19-datascience-translation</id><content type="html" xml:base="https://datus.encryptedcommerce.net/public-health/2020/03/09/Covid-19-datascience-translation.html">&lt;p&gt;Esta es una traducción al español de 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://datus.encryptedcommerce.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://datus.encryptedcommerce.net/" rel="alternate" type="text/html" /><updated>2020-08-07T22:48:01-05:00</updated><id>https://datus.encryptedcommerce.net/feed.xml</id><title type="html">Datus</title><subtitle>Data science and machine learning thoughts, news, and resources</subtitle><entry><title type="html">Covid 19 Datascience Translation</title><link href="https://datus.encryptedcommerce.net/public-health/2020/03/09/Covid-19-datascience-translation.html" rel="alternate" type="text/html" title="Covid 19 Datascience Translation" /><published>2020-03-09T00:00:00-05:00</published><updated>2020-03-09T00:00:00-05:00</updated><id>https://datus.encryptedcommerce.net/public-health/2020/03/09/Covid-19-datascience-translation</id><content type="html" xml:base="https://datus.encryptedcommerce.net/public-health/2020/03/09/Covid-19-datascience-translation.html">&lt;p&gt;Esta es una traducción al español de 
 &lt;a href=&quot;https://www.fast.ai/2020/03/09/coronavirus/&quot;&gt;Covid-19, your community, and you — a data science perspective&lt;/a&gt;,
 escrito por &lt;a href=&quot;https://twitter.com/jeremyphoward&quot;&gt;Jeremy Howard&lt;/a&gt; y &lt;a href=&quot;https://twitter.com/math_rachel&quot;&gt;Rachel Thomas&lt;/a&gt;, y traducido por &lt;a href=&quot;https://twitter.com/archimagos&quot;&gt;Leonardo González&lt;/a&gt;.&lt;/p&gt;
 
@@ -70,7 +70,7 @@ Uno de los mejores sistemas de salud del mundo, en Lombardía está a un paso de
 &lt;a href=&quot;https://ccdd.hsph.harvard.edu/&quot;&gt;Centro de Dinámica de Enfermedades Transmisibles&lt;/a&gt; de Harvard, calcula que &lt;a href=&quot;https://www.washingtonpost.com/opinions/2020/03/06/why-its-so-hard-pin-down-risk-dying-coronavirus/&quot;&gt;para covid-19 es 
 entre el 1% al 2%&lt;/a&gt;.
 El último modelo epedemiológico encontró una tasa de 1,6% en China en febrero, dieciséis veces más alta 
-que la gripe &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; (sin embargo, este podría ser un número bastante conservador, porque las tasas aumentan mucho cuando el 
+que la gripe &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; (sin embargo, este podría ser un número bastante conservador, porque las tasas aumentan mucho cuando el 
 sistema de salud no da a basto). Los mejores cálculos actuales esperan que el COVID-19 matará 10 veces más personas 
 este año que la gripe (y &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1ktSfdDrX_uJsdM08azBflVOm4Z5ZVE75nA0lGygNgaA/edit?usp=sharing&quot;&gt;los modelos de Elena Grewal&lt;/a&gt;, ex directora de ciencia de datos en Airbnb, muestra que podría ser 
 100 veces más, en el peor de los casos). Esto es antes de tener en cuenta el gran impacto en el sistema médico, como el 
@@ -91,7 +91,7 @@ como resultado 36 millones de infecciones! (Esto es, por supuesto, una generaliz
 pero es una ilustración razonable de la diferencia &lt;em&gt;relativa&lt;/em&gt; entre covid-19 y la gripe, todas las demás cosas siendo iguales).&lt;/p&gt;
 
 &lt;p&gt;Tenga en cuenta que la R0 no es una propiedad fundamental de una enfermedad. Depende en gran medida de la respuesta pública, y puede 
-cambiar con el tiempo &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; . En particular, en China, la R0 para el covid-19 ha bajado mucho y ahora se acerca a 1,0. ¿Cómo, preguntas?
+cambiar con el tiempo &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; . En particular, en China, la R0 para el covid-19 ha bajado mucho y ahora se acerca a 1,0. ¿Cómo, preguntas?
 Poniendo en práctica medidas a una escala que sería difícil de imaginar en un país como los Estados Unidos – por ejemplo, aislando 
 por completo muchas ciudades gigantes y desarrollando un proceso de pruebas que permita administrar las pruebas a más de un millón de 
 personas por semana.&lt;/p&gt;
@@ -199,10 +199,10 @@ durante un período de varias semanas. Reunir grupos en espacios cerrados es lo 
 éticamente obligados a garantizar que, al menos en este caso, esto no sucediera. Fue una decisión desgarradora. Nuestro 
 tiempo dedicado a trabajar directamente con nuestros estudiantes ha sido uno de los grandes placeres y períodos más 
 productivos de cada año. Y teníamos estudiantes planeando viajar desde todo el mundo, a quienes realmente no queríamos 
-decepcionar &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+decepcionar &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;p&gt;Sin embargo, sabíamos que era lo correcto, porque de lo contrario estaríamos aumentando la propagación de la enfermedad en 
-nuestra comunidad &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+nuestra comunidad &lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;necesitamos-aplanar-la-curva&quot;&gt;Necesitamos aplanar la curva&lt;/h2&gt;
 
@@ -330,19 +330,19 @@ Esto significa:&lt;/p&gt;
 
 &lt;h3 id=&quot;notas-al-pie&quot;&gt;Notas al pie&lt;/h3&gt;
 
-&lt;div class=&quot;footnotes&quot;&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
   &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Los &lt;em&gt;epidemiólogos&lt;/em&gt; son personas que estudian la propagación de la enfermedad. Resulta que calcular cosas como la mortalidad y la R0 en realidad son bastante desafiantes, por lo que hay un campo completo que se especializa en hacerlo bien.  Desconfíe de las personas que usan índices y estadísticas simples para decirle cómo se comporta el covid-19. En cambio, mire los modelos realizado por epidemiólogos. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Los &lt;em&gt;epidemiólogos&lt;/em&gt; son personas que estudian la propagación de la enfermedad. Resulta que calcular cosas como la mortalidad y la R0 en realidad son bastante desafiantes, por lo que hay un campo completo que se especializa en hacerlo bien.  Desconfíe de las personas que usan índices y estadísticas simples para decirle cómo se comporta el covid-19. En cambio, mire los modelos realizado por epidemiólogos. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Bueno, técnicamente no es cierto. “R0” estrictamente hablando se refiere a la tasa de infección en ausencia de respuesta.  Pero dado que eso no es lo que realmente nos importa, nos dejaremos ser un poco descuidados con nuestras definiciones aquí. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Bueno, técnicamente no es cierto. “R0” estrictamente hablando se refiere a la tasa de infección en ausencia de respuesta.  Pero dado que eso no es lo que realmente nos importa, nos dejaremos ser un poco descuidados con nuestras definiciones aquí. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;Desde esa decisión, hemos trabajado duro para encontrar una manera de ejecutar un curso virtual que esperamos sea incluso mejor que la versión en persona. Hemos podido abrirlo a cualquier persona en el mundo y ejecutaremos grupos de estudio y proyectos virtuales todos los días. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Desde esa decisión, hemos trabajado duro para encontrar una manera de ejecutar un curso virtual que esperamos sea incluso mejor que la versión en persona. Hemos podido abrirlo a cualquier persona en el mundo y ejecutaremos grupos de estudio y proyectos virtuales todos los días. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
-    &lt;li id=&quot;fn:4&quot;&gt;
-      &lt;p&gt;También hemos realizado muchos otros cambios menores en nuestro estilo de vida, como hacer ejercicio en casa en lugar de ir al gimnasio, trasladar todas nuestras reuniones a una videoconferencia y omitir eventos nocturnos que habíamos estado esperando. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;También hemos realizado muchos otros cambios menores en nuestro estilo de vida, como hacer ejercicio en casa en lugar de ir al gimnasio, trasladar todas nuestras reuniones a una videoconferencia y omitir eventos nocturnos que habíamos estado esperando. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;</content><author><name></name></author><summary type="html">Esta es una traducción al español de Covid-19, your community, and you — a data science perspective, escrito por Jeremy Howard y Rachel Thomas, y traducido por Leonardo González.</summary></entry></feed>
